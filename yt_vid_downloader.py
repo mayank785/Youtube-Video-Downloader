@@ -16,8 +16,9 @@ def downloader():
     for i in vid:
         print(i)
     print()
+    strm = int(input("Enter the index number of file you want to download : "))
     print(f"Downloading : {t}")
-    videos[1].download()
+    videos[strm].download()
     print("Success...")
 
 for i in links:
