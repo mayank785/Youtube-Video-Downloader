@@ -11,4 +11,4 @@ This file helps you to make the file with the links of all videos you want to do
 2. yt_vid_downloader.py
 This file downloads all the videos which were provided in the file made using "csv_maker.py"
 
-Your suggestions are always welcomed! : )
+Your suggestions are always welcomed!
