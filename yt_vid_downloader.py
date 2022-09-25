@@ -11,7 +11,7 @@ with open('vid_url.csv', 'r') as urls:
 def downloader():
     yt = YouTube(link)
     t = yt.title
-    videos = yt.streams.filter(mime_type = "audio/mp4")
+    videos = yt.streams.all()
     vid = list(enumerate(videos))
     for i in vid:
         print(i)
